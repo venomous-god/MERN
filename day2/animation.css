@@ -1,0 +1,65 @@
+/* @keyframes example{
+    0%{
+        background-color: red;
+        left: 0px;
+        top: 0px;   
+        transform: translate(200px, 0) rotate(0deg);     
+    }
+    25%{
+        background-color: coral;
+        left: 500px;
+        top: 0px;
+        transform: translate(0, 200px) rotate(90deg);
+    }
+    50%{
+        background-color: aqua;
+        left: 500px;
+        top: 500px;
+        transform: translate(-200px, 0) rotate(180deg);
+        }
+    75%{
+        left: 0px;
+        top: 500px;
+        transform: translate(0, -200px) rotate(270deg);
+        
+        }
+    100%{
+        background-color: burlywood;
+        left: 0;
+        top: 0;
+        transform: translate(200px, 0) rotate(360deg);
+       
+    }
+} */
+@keyframes example {
+    0% { 
+        background-color: red;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(0deg) translateY(-300px) rotate(0deg);
+    } 
+    100% { 
+        background-color: burlywood;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(360deg) translateY(-300px) rotate(-360deg);
+    } 
+} 
+.box{
+    position: absolute;
+    animation: example 5s infinite linear;
+    width: 100px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: beige;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 600;
+    margin: auto;
+} 
+
+body {
+    background-color: black;
+}
+
+

@@ -1,0 +1,40 @@
+#main-heading{
+    color: aqua;
+}
+.text{
+    color: rgb(4, 4, 234);
+}
+.nope{
+    background-color:chocolate !important;
+}
+.op{
+    background-color: chartreuse !important;
+}
+p, div {
+    padding: 0px;
+    margin: 0px;
+  
+}
+
+.box{
+  background-color: rgb(43, 208, 226);
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 3px solid black;
+  padding: 10px;
+
+ 
+  
+}
+.outer-box{
+    display: flex;
+    gap: 10px;
+    flex-direction:column;
+    border: 7px dashed rgb(255, 0, 0);
+}
+.extra-outer-box{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
